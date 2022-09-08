@@ -1,0 +1,40 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="head.css">
+
+</head>
+<body>
+<div class="content">
+<h2>Introduction to Files data</h2>
+<p>In this type of programming we can perform different types of operation on file and opereation result is stored in the file permanetly</p>
+<h2>Defference between Text file and Binary file</h2>
+<p><b>Text file</b> can be created by usingz Notepad or other simple text editors.The extension of text file is(.txt).<br><br></p>
+<p><b>Binary file</b> its extension is (.bin).It contains information in thr form of binary code(1 or 0) and it is not readable</p>
+<h2>Mode of operation</h2>
+<table border="1"><tr><td>File Mode</td><td>Description</td></tr>
+<tr><td><b>r</b></td><td>it opens anexesting text file for  reading puporse.<br>If the file does not exist,fopen()returns NULL</td></tr>
+<tr><td><b>r+</b></td><td>It opens an existing text file for reading and writing puporse.<br>If does not exist,fopen()returns NULL</td></tr>
+<tr><td><b>w</b></td><td>It opens a text file for writing puporse.<br>If it does not exist then a new file is created.<br>If the file exist,its contents are overwritten</td></tr>
+<tr><td><b>w+</b></td><td>It opens a text file for writing and reading purpose.<br>If does  not  exist,then a new file is created.<br>If the file exists,its content are overwritten</td></tr>
+<tr><td><b>a</b></td><td>	It is used to open a tet file in writing appending mode.<br>If the file does not exist,then a new file is created</td></tr>
+<tr><td><b>a+</b></td><td>It is used to open a text file in writing and reading appending mode.<br>If the file does not exist,then a new file is created.</td></tr>
+</table>
+<h2>Important function</h2>
+<table border="1"><tr><td><b>Fubction name</b></td><td><b>Description</b></td></tr>
+<tr><td><b>fopen</b></td><td>It is used to open a text file on given path.<br>It has two parameter <b>path(where file is created and mode of operation(Ex-r for reading or w for writing).</b></td></tr>
+<tr><td><b>fscanf</b></td><td>It is used to scan the text file.<br>It acts like scanner and it reads a set of data from file.</td></tr>
+<tr><td><b>fprintf</b></td><td><b>printf</b>is used to printf information or data on output.<br><b>fprintf</b> is used to prin information or data into the file.<br>It has two parameter file and message which is to be printed</td></tr>
+<tr><td><b>fclose</b></td><td>It is predefined function which is used to close the file</td></tr>
+<tr><td><b>getc</b></td><td>It is used to get a character from file </td></tr>
+<tr><td><b>putc</b></td><td>It is used to write a chaacter to a file</td></tr>
+</table>
+<h2>Example of writing into a file</h2>
+<img src="Screenshot (51).png">
+<h2>Example of reading from a file</h2>
+<img src="Screenshot (52).png">
+<div class="button">
+<button><a href="Calloc()and Realloc.html">Previous</a></button>
+</div>
+</div>
+</body>
+</html>

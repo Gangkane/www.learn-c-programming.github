@@ -1,0 +1,20 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="head.css">
+
+</head>
+<body>
+<div class="content">
+<h2>The Needs for Structure</h2>
+<p>In C, a structure is a collection of one or more variables, possibly of different types, grouped together under a single name for convenient handling. <br><br>
+There are many situations in which we want to process data about a certain entity or object but the data consists of items of various types. For example, the data for a student (the student record) may consist of several fields such as a name, address, and telephone number (all of type string); number of courses taken (integer); fees payable (floating-point); names of courses (string); grades obtained (character); and so on. <br><br>
+The data for a car may consist of manufacturer, model, and registration number (string); seating capacity and fuel capacity (integer); and mileage and price (floating-point). For a book, we may want to store author and title (string); price (floating-point); number of pages (integer); type of binding: hardcover, paperback, spiral (string); and number of copies in stock (integer). Suppose we want to store data for 100 students in a program. One approach is to have a separate array for each field and use subscripts to link the fields together. Thus, name[i], address[i], fees[i], and so on, refer to the data for the ith student.<br><br>
+The problem with this approach is that if there are many fields, the handling of several parallel arrays becomes clumsy and unwieldy. For example, suppose we want to pass a student’s data to a function via the parameter list. This will involve the passing of several arrays. Also, if we are sorting the students by name, say, each time two names are interchanged, we have to write statements to interchange the data in the other arrays as well. In such situations, C structures are convenient to use.
+
+</p>
+<div class="button">
+<button><a href="String to array.html">Previous</a></button><button><a href="How to Declare a Structure.html">Next</a></button>
+</div>
+</div>
+</body>
+</html>

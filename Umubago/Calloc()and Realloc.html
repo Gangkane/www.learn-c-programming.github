@@ -1,0 +1,24 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="head.css">
+
+</head>
+<body>
+<div class="content">
+<h2>Calloc()and Realloc</h2>
+<p>Another memory allocating tool is the C standard library <stdlib.h> function calloc(). Like the malloc() function, the calloc() function attempts to grab contiguous segments of mem- ory from the heap. The calloc() function takes two arguments: the first determines the number of memory segments needed and the second is the size of the data type. <br><br>
+<b>It stands for contiguous allocation.</b>The allocated memory space is initialized to zero.<br>
+It return <b>null</b> if memory is insuffient.<br><br>
+<b>realloc()</b>function is used to modify the size of previously allocated memory.</p>
+<h2> Syntax of Realloc</h2><p>
+<b>ptr = realloc(ptr,new size);</b> 
+</p>
+<h2>Syntax of Calloc()</h2>
+<b>ptr=(cast-type*)calloc(numberof block,size of each block)</b><br>
+<b>ptr</b> is the pointer,<b>cast-type</b>is the data type in which we want to cast the returning pointer
+<div class="button">
+<button><a href="Freeing Memory.html">Previous</a></button><button><a href="Introduction to Files data.html">Next</a></button>
+</div>
+</div>
+</body>
+</html>

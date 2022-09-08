@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" type="text/css" href="head.css">
+</head>
+<body>
+<div class="content">
+<h2 style="color:blue">Escape sequence in C</h2>
+<p>This particular escape sequence (\n) tells the program to add a new line.<br> Take a look at the following program statement. How many new lines are added to standard output with this one printf() function?<br><br>
+printf("\nC you later\n");<br><br>
+This printf() function adds two new lines for formatting purposes. Before any text is shown, the program outputs a new line. <br>After the text is written to standard output, in this case the computer screen, another new line is written.</p>
+<h3 style="color:blue">Describes some common escape sequences.</p><br>
+<h3 style="color:blue">Escape Sequence: </h3>
+<p>\n :Creates a new line <br>
+\t :Moves the cursor to the next tab <br>
+\r :Moves the cursor to the beginning of the current line<br>
+ \\ :Inserts a backslash<br>
+ \" :Inserts a double quote <br>
+\' :Inserts a single quote
+</p>
+
+<h2>Escape Sequence \n </h2>
+<img src="programe.png" style="width:auto;height:auto"><br>
+<h2>Escape Sequence \t </h2>
+<p><b>Escape sequence \t</b> moves the cursor to the next tab space. <br>This escape sequence is useful for formatting output in many ways. For example, a common formatting desire is to create columns in your output, as the following program statements demonstrate.
+</p>
+<p><b>As shown in Figure</b> , the preceding program statements create formatted columns that display a sample calendar month.
+</p>
+<img src="progran.png" style="width:auto;height:auto"><br>
+<h2>Escape Sequence \r </h2>
+<p>You may find the escape sequence \r useful for some formatting tasks when the cursor’s position is of importance, especially with printed output because a printer can overwrite text
+already printing. <br>The following program code demonstrates how it works; the output is shown in the figure
+</p>
+<img src="programa.png" style="width:auto;height:auto"><br>
+<h2>Escape Sequence \\ </h2>
+<p><b>Escape sequence \\ </b>inserts a backslash into your text. This may seem unnecessary at first, but remember that whenever the program reads a backslash in a printf() function, it expects to see a valid escape character right after it. In other words, the backslash character (\) is a special character in the printf() function; if you need to display a backslash in your text, you must use this escape sequence.
+The following program statement demonstrates escape sequence \\. <br>The output is shown in Figure 
+</p>
+<img src="programo.png" style="width:auto;height:auto"><br>
+<h2>Escape Sequence \" </h2>
+<p>Another reserved character in <b>the printf()</b> function is the double quote<b> (") </b>character. To insert a quote into your outputted text, use the escape sequence \" as demonstrated in the following program statement.<br> The output is shown in Figure
+</p>
+<img src="programi.png" style="width:auto;height:auto"><br>
+<h2>Escape Sequence \' </h2>
+<p>Similar to the double quote escape sequence <b>(\")</b> is the single quote (also called an apostrophe) escape sequence <b>(\')</b>. To insert a single quote into your outputted text, use the escape sequence \' as demonstrated in the following program statement and in Figure </p>
+<img src="programma.png" style="width:auto;height:auto"><br>
+<div class="button">
+<button><a href="C constants.html">previous</a></button><button><a href="Data types in C language.html">Next</a></button>
+</div>
+</div>
+</body>
+</html>

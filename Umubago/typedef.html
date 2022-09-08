@@ -1,0 +1,26 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="head.css">
+
+</head>
+<body>
+<div class="content">
+<h2>typedef</h2>
+<p>We can use typedef to give a name to some existing type, and this name can then be used to declare variables of that type. We can also use typedef to construct shorter or more meaningful names for predefined C types or for user-declared types, such as structures. For example, the following statement declares a new type-name Whole, which is synonymous with the predefined type int:<br><br>
+<b>typedef int Whole;</b><br><br>
+Note that Whole appears in the same position as a variable would, not right after the word typedef. We can then declare variables of type Whole, as follows:<br><br>
+Whole amount, numCopies;<br><br>
+We could give a short, meaningful name, Date, to the date structure shown earlier with the following declaration:<br><br>
+<b>typedef struct date {<br>   
+int day;   <br>
+int month;   <br>
+int year; <br>
+} Date;</b> 
+Recall that C distinguishes between uppercase and lowercase letters so that date is different from Date. We could, if we wanted, have used any other identifier, such as DateType, instead  of Date. <br><br>
+We could now declare “structure variables” of type Date, such as the following:<br>
+<b>Date Dob, borrowed, returned;<b>
+</p>
+<h2></h2>
+</div>
+</body>
+</html>

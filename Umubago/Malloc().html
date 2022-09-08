@@ -1,0 +1,20 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="head.css">
+<style type="text/css">
+</style>
+</head>
+<body>
+<div class="content">
+<h2>Malloc()</h2>
+<p>Sometimes it is impossible to know exactly how much memory your program will need for a given function. Fixed-sized arrays may not be large enough to hold the amount of data you are requesting to store. For example, what would happen if you created an eight-element, fixed-size character array to hold a user’s name, and the user enters the name “Alexandria”— a 10-character name with an 11th character required for null. Best-case scenario: You incor- porated error checking in your program to prevent a user from entering a string larger than eight characters. Worst-case scenario: The user’s information is sent elsewhere in memory, potentially overwriting other data. <br><br>
+There are many reasons for dynamically creating and using memory, such as creating and reading strings from standard input, dynamic arrays, and other dynamic data structures such as linked lists. C provides a few functions for creating dynamic memory, one of which is the malloc() function. The malloc() function is part of the standard library <stdlib.h> and takes a number as an argument. When executed, malloc() attempts to retrieve designated memory segments from the heap and returns a pointer that is the starting point for the memory reserved.<br><br>
+</p>
+<h2>Example</h2>
+<img src="Screenshot (48).png">
+<div class="button">
+<button><a href="Sizeof.html">Previous</a></button><button><a href="Managing Strings with malloc().html">Next</a></button>
+</div>
+</div>
+</body>
+</html>

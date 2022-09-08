@@ -1,0 +1,83 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="head.css">
+
+</head>
+<body>
+<div class="content">
+<h2>What is function</h2>
+<p>It is a collection of statement that perform an specific task.</p><h2>Characteristics of functions</h2>
+<p>It executs when it  is called by its name.<br>A large program is devided into a number of small buliding block for simplicity and tthis building block is called function.<br>
+We can call a function again and again.<br>The most importent features of function is code reusability.</p>
+<div style="width:210px;height:auto ;border:1px solid black"><
+return_type function_name(parameter list)<br>
+{<br>
+//body<br>
+}
+
+</div>
+<h2>Description</h2>
+<table border="1"><tr><td>retun type</td><td>It is a keyword which indicate that which type of value is being returning by the function.<br>If we do not retun any value then we use void keyword in place of retun_type.</td></tr>
+<tr><td><b> function name </b></td><td>It is the actual name of the function.<br>It is also used at he time of calling the function </td></tr>
+<tr><td><b> paraneter list </b></td><td>It is the place where we can pass a number of parameter/variable.<br>These variable may be used in the program.<br>The value of parameter can be initialized or we can pass it from calling of function.<br>It is optional part.</td></tr>
+<tr><td><b> body </b></td><td>It is the  place where the code is written to perform the specific task</td></tr>
+</table>
+<h2>About function</h2>
+<p><b>Function Declaration</b>: At this stage the function is declared.<b><u>for example</u></b<br><br>
+ <b>void add</b>();<br>
+ This is a function declaration which void(no return type)<br>
+ indicates there is no value returning by this function and <b>add</b> is the name of function<br>
+ <u>Function Definition</u>:This the place where actual code is written to perform thr task.<b><u>for example</u></b></p>
+ <div style="width:210px;height:auto ;border:1px solid black">
+<b>void add()<br>
+{<br>
+  int x,y=20,z=30;<br>
+  x=y+z;<br>
+  printf("Add=%d",x);<br>
+}
+</b>
+
+</div>
+<p>This is a function definition and here we can see that code is written to perform the addition task</p>
+<p><b>Function calling:</b>At this stage the function is called<b><u>for example</u></b></p><br><br>
+add();<br>
+<p>To call a function just write function name and put semicolon(); after it.</p>
+<h2>Example</h2>
+<img src="gang.png" style="width:auto;height:auto">
+<h2>Function predefined</h2>
+<p>The function which is predefined in the library is called predefined function.<b><u>for example</u></b><br><b>printf(),scanf(),clrscr(),getch() etc,</b></h3>
+<h2>Function usertdefined</h2>
+<p>The function which is made by the user is also known as userdefined function.<u>for example</u><b>add(),sub(),mult(),div() etc.</p>
+<h2>Category of userdefined function</h2>
+<p><b>There 4 category of userdefined function:</b></p>
+<ol>
+<li>Function with ni return type and no parameter.</li>
+<li>Function with no return type and with parameter.</li>
+<li>Function with return type and no parameter</li>
+<li>Function with return type and parameter</li>
+</ol>
+<h2>Function with no retun type and no parameter</h2>
+<p>The function in which there is no parameter and there is no value returning by that function is called <b>Function with no return type and no parameter </b></p>
+<h2>Example</h2>
+<img src="gango.png" style="width:auto;height:auto">
+<h2>Function with no retun type and with parameter</h2>
+<p>The function in which there is some parameter and there is no value returning by that function is called <b>Function with no return type and with parameter </b></h3>
+<h2>Example</h2>
+<img src="gong.png" style="width:auto;height:auto">
+<p>In the above example there are two parameter of integer type namely <b>y</b> and <b>z</b> there at the time of calling two integer value will be passed in which first will assign to <b>y</b> and second will assign to <b>z</b></p>
+<h2>Function with return type and no parameter</h2>
+<p>The function  in which there is no parameter and there is some called <b>function with type and no parameter</b></p>
+<h2>Example</h2>
+<img src="prod.png" style="width:auto;height:auto">
+<p>In the above example there is no parameter but the function will return integer value beacause there is int keyword in the place of return type and returned value will assign to variable a</p>
+<h2>Function with return type and parameter</h2>
+<p>The function in which there is some parameter and there is some value returnig by that function is called <u>function with return and with parameter</u></p>
+<h2>Example</h2>
+<img src="ganstar.png" style="width:auto;height:auto">
+In the above example there is two parameter and the function will return integer value beacause there is int keyword in the place of return type and returned value will assign to variable a</p>
+<div class="button">
+<button><a href="Nested loop.html">Previous</a></button><button><a href="Call by value and call by references.html">Next</a></button>
+</div>
+</div>
+</body>
+</html>

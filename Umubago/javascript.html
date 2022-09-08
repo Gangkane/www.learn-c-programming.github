@@ -1,0 +1,28 @@
+<html>
+<head>
+<title></title>
+<style type="text/css">
+div{
+width:100px;
+height:40px;
+background-color:red;
+border:1px solid black;
+}
+</style>
+</head>
+<body>
+<div onclick="changecolor(this)">
+Tap me to chang color
+<script>
+function changecolor(element){
+var currentcolor=element.style.backgroundcolor;
+if(currentcolor="red"){
+element.style.backgroundcolor="green";
+}else{
+element.style.backgroundcolor="red";
+}
+}
+</div>
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="head.css">
+
+</head>
+<body>
+<div class="content">
+<h2>One Dimensional array</h2>
+<p>There are occasions when you might need or want to use a one-dimensional array.<br> Although there is no rule for when to use an array, some problems are better suited for an array-based solution, as demonstrated in the following list.
+</p>
+<p><ul>
+<li> The number of pages in each chapter of a book</li>
+<li>A list of students’ GPAs</li>
+<li> Keeping track of your golf score</li>
+<li> A list of phone numbers</li>
+</ul><p>
+<p>Looking at the preceding list, you may be wondering why you would use an array to store the aforementioned information. Consider the golf score statement. <br>If you created a program
+that kept track of your golf scores, how many variables, or better yet variable names, would you need to store a score for each hole in a golf game? If you solved this question with indi- vidual variables, your variable declarations may resemble the following code:<br><br>
+int iHole1, iHole2, iHole3, iHole4, iHole5, iHole6;<br> int iHole7, iHole8, iHole9, iHole10, iHole11, iHole12; <br>int iHole13, iHole14, iHole15, iHole16, iHole17, iHole18;<br><br>
+That’s a lot of variables to keep track of. If you use an array, you only need one variable name with 18 elements, as shown next.
+int iGolfScores[18];
+</p>
+<h2>Create One-Dimensional Arrays</h2>
+<p>Creating and using one-dimensional arrays is easy, though it may take some time and practice for it to become that way. Arrays in C are created in similar fashion to other variables, as shown next.<br><br>
+int iArray[10];<br><br>
+The preceding declaration creates a single-dimension, integer-based array called iArray, which contains 10 elements. Remember that arrays are zero-based; you start counting with the number zero up to the number defined in the brackets minus 1 (0, 1, 2, 3, 4, 5, 6, 7, 8, 9 gives you 10 elements).<br><br>
+Arrays can be declared to contain other data types as well. To demonstrate, consider the next array declarations using various data types.
+</p>
+<h2>Initialize One-Dimensional Arrays</h2>
+<p>In C, memory spaces are not cleared from their previous value when variables or arrays are created. Because of this, it is generally good programming practice to not only initialize your variables but to also initialize your arrays.<br><br>
+There are two ways to initialize your arrays: within the array declaration and outside of the array declaration. In the first way, you simply assign one or more comma-separated values within braces to the array in the array’s declaration.
+Placing numbers inside braces and separating them by commas will assign a default value to each respective element number.
+<br></p>
+<h2>Exanple</h2>
+<img src="s.png" style="width:auto;height:auto">
+<div class="button">
+<button><a href="Introduction to Arrays.html">Previous</a></button><button><a href="Two Dimensional Array.html">Next</a></button>
+</div>
+
+</div>
+</body>
+</html>

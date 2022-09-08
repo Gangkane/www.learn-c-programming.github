@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="head.css">
+
+</head>
+<body>
+<div class="content">
+<h2>Pointer</h2>
+<p>Pointers are very powerful structures that can be used by C programmers to work with vari- ables, functions, and data structures through their memory addresses. Pointers are variables that most often contain a memory address as their value. In other words, a pointer variable contains a memory address that points to another variable. Huh? That may have sounded weird, so let’s discuss an example: Say I have an integer variable called iResult that contains the value 75 with a memory address of 0x948311. Now say I have a pointer variable called myPointer, which does not contain a data value, but instead contains a memory address of 0x948311, which by the way is the same memory address of my integer variable iResult. This means that my pointer variable called myPointer indirectly points to the value of 75. This concept is known as indirection and it is an essential pointer concept.</p>
+<h2>Declaring and Initializing Pointer Variables</h2>
+<p>Pointer variables must be declared before they can be used, as shown in the following code:<br><br>
+int x = 0;<br>
+int iAge = 30;<br>
+int *ptrAge;
+</p>
+<p>Simply place the indirection operator (*) in front of the variable name to declare a pointer. In the previous example I declared three variables, two integer variables and one pointer variable. For readability purposes, I use the naming convention ptr as a prefix. This helps me and other programmers identify this variable as a pointer.<br><br>
+When I declared the pointer ptrAge, I was telling C that I want my pointer variable to in- directly point to an integer data type. My pointer variable, however, is not pointing to anything just yet. To indirectly reference a value through a pointer, you must assign an address to the pointer, as shown here:<br><br>
+ptrAge = &iAge;<br><br>
+In this statement, I assign the memory address of the iAge variable to the pointer variable (ptrAge). Indirection in this case is accomplished by placing the unary operator (&) in front of the variable iAge. This statement is telling C that I want to assign the memory address of iAge to my pointer variable ptrAge.<br><br>
+The unary operator (&) is often referred to as the “address of” operator because, in this case, my pointer ptrAge is receiving the “address of” iAge.<br><br>Conversely, I can assign the contents of what my pointer variable points to—a non-pointer data value—as demonstrated next.
+<br><br>x = *ptrAge;<br><br>The variable x will now contain the integer value of what ptrAge points to—in this case the integer value 30.<br><br>
+Not initializing your pointer variables can result in invalid data or invalid expression results. Pointer variables should always be initialized with another variable’s memory address, with 0, or with the keyword NULL. The next code block demonstrates a few valid pointer initializations.<br><br>
+int *ptr1;<br> 
+int *ptr2;<br>
+int *ptr3; <br>
+ptr1 = &x; <br>ptr2 = 0; <br>ptr3 = NULL;<br><br>
+Remembering that pointer variables can only be assigned memory addresses, 0, or the NULL value is the first step in learning to work with pointers. 
+</p>
+<h2>Example</h2>
+<img src="">
+<div class="button">
+<button><a href="Array to function.html">Previous</a></button><button><a href="pointer to function.html">Next</a></button>
+</div>
+</div>
+</body>
+</html>

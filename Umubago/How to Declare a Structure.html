@@ -1,0 +1,25 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="head.css">
+
+</head>
+<body>
+<div class="content">
+<h2>How to Declare a Structure</h2>
+<p>Consider the problem of storing a date in a program. A date consists of three parts: the day, the month, and the year. Each of these parts can be represented by an integer. For example, <b>the date “August 20, 2020”</b> can be represented by the day, 14; the month, 9; and the year, 2006. We say that a date consists of three fields, each of which is an integer. If we want, we can also represent a date by using the name of the month, rather than its number. In this case, a date consists of three fields, one of which is a string and the other two are integers. In C, we can declare a date type as a structure using the keyword struct. Consider this declaration:<br><br>
+struct date {int day, month, year;};<br><br>
+It consists of the keyword struct followed by some name we choose to give to the structure (date, in the example); this is followed by the declarations of the fields enclosed in left and right braces. Note the semicolon at the end of the declaration just before the right brace – this is the usual case of a semicolon ending a declaration. The right brace is followed by a semicolon, ending the struct declaration. <br><br>
+We could also have written the declaration as follows, where each field is declared individually:<br><br>
+<b>struct date { <br>  
+int day;  <br> int month; <br>  int year;<br> };</b><br><br>
+The structure members created can  be accessed via the dot operator (.)
+
+</p>
+<h2>Example</h2>
+<img src="ghee.png">
+<div class="button">
+<button><a href="The Need for Structure .html">Previous</a></button><button><a href="Array of Structure.html">Next</a></button>
+</div>
+</div>
+</body>
+</html>
